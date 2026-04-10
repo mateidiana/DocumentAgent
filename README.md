@@ -48,16 +48,17 @@ The frontend provides a simple interface for uploading documents and interacting
 
 ## Repository Structure
 ```text
-[project-name]/
+[DocumentAgent]/
 │── app.py
 │── README.md
 │── requirements.txt
 │── data/
 │── chroma_db/
 │── src/
+|   |── dataload.py
 │   ├── ingest.py
 │   ├── chunking.py
 │   ├── retriever.py
 │   ├── qa.py
-│   ├── agent.py
+│   ├── utils.py
 │   └── evaluation.py
